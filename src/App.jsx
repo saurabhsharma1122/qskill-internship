@@ -8,8 +8,8 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/#/generator" element={<StringGenerator />} />
-        <Route path="/#/translator" element={<Translator />} />
+        <Route path="/generator" element={<StringGenerator />} />
+        <Route path="/translator" element={<Translator />} />
       </Routes>
     </HashRouter>
   )
