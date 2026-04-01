@@ -5,7 +5,7 @@ import Translator from './pages/Translator'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/qskill-internship">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/generator" element={<StringGenerator />} />
