@@ -100,7 +100,7 @@ export default function Home() {
 
         {/* Project buttons */}
         <div style={{ display: 'flex', gap: '12px' }}>
-          <Link to="/#/generator" style={{
+          <Link to="/generator" style={{
             flex: 1, padding: '1.2rem',
             background: '#00ff80',
             color: '#020208',
@@ -118,7 +118,7 @@ export default function Home() {
           >
             String Generator ↗
           </Link>
-          <Link to="/#/translator" style={{
+          <Link to="/translator" style={{
             flex: 1, padding: '1.2rem',
             background: 'transparent',
             color: '#fff',
