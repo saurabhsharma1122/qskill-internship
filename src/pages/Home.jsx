@@ -138,7 +138,7 @@ export default function Home() {
           opacity: mounted ? 1 : 0,
           transition:'opacity 0.8s ease',
         }}>
-          <span className="rotated-label">Saurabh Sharma · Portfolio · 2025</span>
+          <span className="rotated-label">Saurabh Sharma · Internship Project · 2025</span>
         </div>
 
         {/* ── Main content ── */}
@@ -177,17 +177,6 @@ export default function Home() {
             opacity: mounted ? 1 : 0,
             animation: mounted ? 'fadeLeft 0.75s cubic-bezier(0.22,1,0.36,1) forwards' : 'none',
           }}>
-
-            <div style={{
-              fontFamily:"'Playfair Display', serif",
-              fontStyle:'italic',
-              fontSize:'15px',
-              color:'#D93B24',
-              marginBottom:'6px',
-              letterSpacing:'0.5px',
-            }}>
-              — the portfolio of
-            </div>
 
             <h1 style={{
               fontFamily:"'Bebas Neue', sans-serif",
@@ -363,4 +352,4 @@ export default function Home() {
       </div>
     </>
   )
-              }
+}
