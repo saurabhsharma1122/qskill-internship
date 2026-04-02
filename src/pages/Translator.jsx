@@ -446,7 +446,7 @@ const handleTranslate = async () => {
           className="text-center text-xs mt-6 tracking-widest uppercase"
           style={{ color: "#c4a882" }}
         >
-          Powered by saurabh sharmato Qskill internship · 20 Languages
+          Powered by saurabh sharma to Qskill internship · 20 Languages
         </p>
       </div>
     </div>
